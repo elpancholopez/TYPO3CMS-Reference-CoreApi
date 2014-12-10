@@ -51,10 +51,10 @@ affecting the sending process. The most important one is
          - *$TYPO3_CONF_VARS['MAIL']['transport_smtp_encrypt']*: Connect to the server using
            encryption and TLS. Requires openssl library.
 
-         - *$TYPO3_CONF_VARS['MAIL']['transport_smtp_username]*: If your SMTP server
+         - *$TYPO3_CONF_VARS['MAIL']['transport_smtp_username']*: If your SMTP server
            requires authentication, the username.
 
-         - *$TYPO3_CONF_VARS['MAIL']['transport_smtp_password]*: If your SMTP server
+         - *$TYPO3_CONF_VARS['MAIL']['transport_smtp_password']*: If your SMTP server
            requires authentication, the password.
 
  - :Value: sendmail
